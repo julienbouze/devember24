@@ -8,7 +8,7 @@ export default function Home() {
       <div className="flex flex-col w-11/12 sm:w-10/12 p-8 gap-8">
         <div className="flex flex-col items-center justify-center">
           <div className="flex flex-col items-end">
-            <h1 className={`text-lg sm:text-xl md:text-3xl lg:text-5xl`}>Welcome to <span className="text-cyan-300">Devember'24</span></h1>
+            <h1 className={`text-lg sm:text-xl md:text-3xl lg:text-5xl`}>Welcome to <span className="text-cyan-300">Devember&#39;24</span></h1>
             <h2 className={`text-sm sm:text-base lg:text-lg`}>Starting <span className="text-cyan-300">November 1st, 2024</span></h2>
           </div>
         </div>
