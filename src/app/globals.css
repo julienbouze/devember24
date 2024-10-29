@@ -2,20 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  background-attachment: fixed;
+  background-image: repeating-linear-gradient(135deg, rgba(25,25,25,0.08) 0px, rgba(25,25,25,0.08) 2px,transparent 2px, transparent 4px),linear-gradient(45deg, rgb(27,27,27),transparent),linear-gradient(135deg, rgb(27,27,27),transparent),linear-gradient(0deg, rgb(27,27,27),transparent),linear-gradient(90deg, rgb(176, 176, 176),rgb(176, 176, 176));
 }
