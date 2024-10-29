@@ -9,7 +9,7 @@ const DayChallenge = () => {
         <div>
             {isNovember24() && (
                 <div className={`${ms.className} text-lg`}>
-                    <p>Today's challenge is n° <span className='text-cyan-300 font-bold'>{getCurrentDate()}</span></p>
+                    <p>Today&#39;s challenge is n° <span className='text-cyan-300 font-bold'>{getCurrentDate()}</span></p>
                 </div>
             )}
         </div>
